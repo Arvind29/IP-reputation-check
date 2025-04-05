@@ -1,0 +1,34 @@
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Streamlit secrets (DO NOT upload API keys)
+.streamlit/secrets.toml
+
+# OS-specific junk files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints (if used later)
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Pip-related
+*.egg-info/
+*.egg
+pip-log.txt
+
+# Cache
+.cache/
